@@ -113,10 +113,10 @@ body {
   color: #fff;
   background-color: #beb45a;
   border-radius: 0;
-  cursor: pointer;
 }
 .nav-pills .nav-link {
   color: #000;
+  cursor: pointer;
 }
 .item-column {
   position: relative;
@@ -137,6 +137,7 @@ body {
   height: 100%;
   object-fit: cover;
   padding: 0.5em;
+  cursor: pointer;
   
 }
 
