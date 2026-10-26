@@ -126,8 +126,8 @@
                 ><img
                   src="assets/images/instagram.png"
                   alt=" instagram de la photographe Nina Carducci"
-				  width="20"
-				  height="20"
+                  width="20"
+                  height="20"
               /></a>
             </li>
           </ul>
@@ -212,10 +212,12 @@
       <!-- Changement des titres pour la coherence sematique et l'accessibilité  -->
       <section id="about">
         <div class="picture left">
-          <img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci"
-		  width="554"
-		  height="555"
-		   />
+          <img
+            src="./assets/images/nina.webp"
+            alt="Portrait de Nina Carducci"
+            width="554"
+            height="555"
+          />
         </div>
         <div id="about-me">
           <h2 class="about-me-title">A propos de moi</h2>
@@ -376,24 +378,25 @@
         </figure>
       </div>
     </main>
-    <div id="contact">
+    <section id="contact">
       <div class="container">
         <div class="form-container">
-          <h3>Une question ? Une demande de devis ?</h3>
+          <h2>Une question ? Une demande de devis ?</h2>
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
           <form action="" method="post">
             <label for="nom">Nom</label>
-            <input type="text" name="nom" id="nom" />
+            <input type="text" name="nom" id="nom" required />
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
             <label for="message">Message</label>
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
+			  required
             ></textarea>
             <input type="submit" value="Envoyer" />
           </form>
@@ -403,11 +406,11 @@
             src="./assets/images/camera.webp"
             alt="appareil photo vintage"
             loading="lazy"
-			width="392"
-			height="391"
+            width="392"
+            height="391"
           />
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
