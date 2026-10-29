@@ -266,7 +266,9 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   transform: scale(0.99);
-  background-color: #1c7426;
+  background-color: #268f00;
+  color: #000;
+  transition: ease 1s;
 }
 
 @media all and (max-width: 1180px) {
