@@ -266,7 +266,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   transform: scale(0.99);
-  background-color: #268f00;
+  background-color: #918807;
   color: #000;
   transition: ease 1s;
 }
