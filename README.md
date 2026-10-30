@@ -18,6 +18,18 @@ Nina Carducci, photographe, souhaitait améliorer le référencement et les perf
 - **SEO** : balises meta, titre et description, Open Graph et Twitter Card pour le partage sur les réseaux sociaux
 - **Rapport d'intervention** rédigé pour la cliente, avec un comparatif avant / après
 
+## Résultats
+
+Scores Lighthouse après optimisation :
+
+| | Performances | Accessibilité | Bonnes pratiques | SEO |
+|---|:---:|:---:|:---:|:---:|
+| 🖥️ Desktop | **98** | **100** | **100** | **100** |
+| 📱 Mobile | **91** | **100** | **96** | **100** |
+
+- Poids des images : **30,9 Mo → 0,43 Mo** (−98,6 %)
+- Affichage du plus grand élément (LCP) : **0,9 s** sur desktop, **2,9 s** sur mobile
+
 ## Technologies
 
 HTML5 · CSS3 · JavaScript · Bootstrap · Lighthouse · GitHub Pages
@@ -44,6 +56,8 @@ Puis ouvrir `index.html` dans le navigateur (ou utiliser l'extension Live Server
 - **Accessibility**: form labels and attributes, carousel controls, link and button colors
 - **SEO**: meta tags, title and description, Open Graph and Twitter Card
 - **Client report** with a before / after comparison
+
+**Results (Lighthouse, after optimization):** desktop 98 / 100 / 100 / 100, mobile 91 / 100 / 96 / 100 (performance / accessibility / best practices / SEO). Image weight reduced from 30.9 MB to 0.43 MB (−98.6%).
 
 **Tech stack:** HTML5 · CSS3 · JavaScript · Bootstrap · Lighthouse · GitHub Pages
 
